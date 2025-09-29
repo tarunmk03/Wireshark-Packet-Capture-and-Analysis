@@ -1,15 +1,15 @@
 # 🛡️ Cyber Security Internship - Task 5
 
-## 📌 Task: Capture and Analyze Network Traffic Using Wireshark
+## 🎯 Task: Capture and Analyze Network Traffic Using Wireshark
 
-This repository contains the files and screenshots related to **Task 5** of the Cyber Security Internship. The goal was to use **Wireshark** to capture live packets and analyze different protocols such as **DNS**, **TCP**, and **TLS**.
+This repository contains the submission for **Task 5** of the Cyber Security Internship. The objective was to use **Wireshark** to capture live network traffic and analyze at least 3 protocols such as **DNS**, **TCP**, and **TLS**.
 
 ---
 
 ## 🧰 Tools & Environment
 
-- **Operating System:** Kali Linux (running in VirtualBox)
-- **Network Capture Tool:** Wireshark
+- **Operating System:** Kali Linux (in VirtualBox)
+- **Packet Capture Tool:** Wireshark
 - **Date of Capture:** 29 September 2025
 
 ---
@@ -18,37 +18,61 @@ This repository contains the files and screenshots related to **Task 5** of the 
 
 | File Name | Description |
 |-----------|-------------|
-| `task5_capture_yourname.pcapng` | Wireshark capture file containing network packets |
-| `report.md` | Detailed report summarizing protocols observed and analysis |
-| `1_all_traffic.png` | General capture showing all observed network traffic |
-| `2_dns_filter.png` | View of DNS packets filtered using `dns` |
-| `3_tcp_filter.png` | View of TCP packets filtered using `tcp` |
-| `4_packet_details.png` | Expanded view of a single packet (headers + hex view) |
+| `All traffic.png` | Screenshot showing a general overview of captured packets |
+| `DNS filter.png` | View filtered to show only DNS traffic |
+| `TCP filter.png` | View filtered to show only TCP packets |
+| `Expanded packet view.png` | A selected packet with headers and hex data expanded |
+| `task5_capture_yourname.pcapng` | Wireshark packet capture file (replace with actual file) |
+| `report.md` | Short report summarizing protocol analysis |
+
+---
+
+## 🖼️ Screenshots Preview
+
+### 🔹 1. All Traffic View
+![All Traffic](./All%20traffic.png)
+
+---
+
+### 🔹 2. DNS Filtered View
+![DNS Filter](./DNS%20filter.png)
+
+---
+
+### 🔹 3. TCP Filtered View
+![TCP Filter](./TCP%20filter.png)
+
+---
+
+### 🔹 4. Expanded Packet View
+![Expanded Packet View](./Expanded%20packet%20view.png)
 
 ---
 
 ## 🔍 Protocols Analyzed
 
-### 🔹 DNS
-- Used for domain name resolution (e.g., resolving google.com)
+### ✅ DNS
+- **Purpose:** Resolves domain names like `google.com` to IP addresses
+- **Captured:** DNS query and response visible in filtered view
 
-### 🔹 TCP
-- Ensures reliable delivery using 3-way handshake (SYN, ACK)
+### ✅ TCP
+- **Purpose:** Ensures reliable delivery using SYN, ACK handshakes
+- **Captured:** TCP Keep-Alive, SYN/ACK packets from web traffic
 
-### 🔹 TLSv1.3
-- Encrypted communication over HTTPS
+### ✅ TLSv1.3
+- **Purpose:** Encrypts HTTP traffic using HTTPS
+- **Captured:** TLS handshake packets visible when accessing `github.com`
 
 ---
 
-## 📝 Summary
+## 📄 Summary
 
-Wireshark was used to capture and analyze real-time network traffic on Kali Linux. Several protocols were identified and filtered. Screenshots and a `.pcapng` file were collected to demonstrate understanding of packet structure, filtering, and analysis.
+Wireshark was successfully used to capture and analyze live network traffic on Kali Linux. By visiting websites and using `ping`, several protocols were identified, filtered, and inspected in detail. Screenshots and a `.pcapng` capture file are provided as proof of analysis and learning.
 
 ---
 
 ## ✍️ Author
 
-**[Tarun M]**  
+**Tarun M**  
 Cyber Security Internship Candidate  
-Elevate Labs - Task 5 Submission
-
+**Task 5 Submission for Elevate Labs**
