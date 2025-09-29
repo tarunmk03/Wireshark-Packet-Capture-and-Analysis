@@ -74,5 +74,5 @@ Wireshark was successfully used to capture and analyze live network traffic on K
 ## ✍️ Author
 
 **Tarun M**  
-Cyber Security Internship Candidate  
+Cyber Security Internship.
 **Task 5 Submission for Elevate Labs**
